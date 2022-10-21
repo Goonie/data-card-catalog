@@ -5,17 +5,30 @@
 }
 
 html {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 body {
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto';
+  font-size: 1rem;
+  line-height: 1.4rem;
 }
 
 h1 {
+  font-family: 'Roboto Condensed';
   font-size: 2rem;
   line-height: 3rem;
   font-weight: 300;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  line-height: 1.4rem;
 }
 
 body {

@@ -1,0 +1,14 @@
+.user {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  .display-name {
+    display: inline-block;
+    margin-top: 0.45rem;
+    margin-bottom: 0.45rem;
+    padding-right: 0.5rem;
+    border-right: 1px solid black;
+    line-height: 1rem;
+  }
+}

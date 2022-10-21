@@ -1,9 +1,11 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 
 import App from 'App';
 
-test('renders without problems', () => {
+test('renders without problems', async () => {
   render(<App />);
 
-  expect(screen.getByText('Data Card Catalog')).toBeInTheDocument();
+  await waitFor(() => {
+    expect(screen.getByText('Data Card Catalog')).toBeInTheDocument();
+  });
 });
