@@ -1,14 +1,16 @@
-import User from 'components/User';
+import Overlay from 'components/Overlay';
 
 import 'App.scss';
 
 function App() {
   return (
-    <main>
-      <h1>Data Card Catalog</h1>
+    <div>
+      <Overlay />
 
-      <User />
-    </main>
+      <main>
+        <h1>Data Card Catalog</h1>
+      </main>
+    </div>
   );
 }
 
